@@ -1,7 +1,7 @@
 # Coffee Grains
-Hello and welcome to the coffee-grains project!
 
-This repository holds all the code for the coffee-grains applications and services.
+Welcome to the coffee-grains project code repository.
+In this document you will find everything you need to know to get your development environment ready to start contributing to the coffee-grains project.
 
 ## Technology stack
 
