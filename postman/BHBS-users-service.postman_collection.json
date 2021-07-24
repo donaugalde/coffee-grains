@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "34717d73-c3cc-4f25-adf4-52d3e991fa1b",
+		"name": "BHBS-users-service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "registerUserUI",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Dona Ugalde\",\r\n    \"email\": \"dona.ugalde.7@gmail.com\",\r\n    \"password\": \"1234567890\",\r\n    \"dateOfBirth\": \"1987-05-27_08:00:01\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{users-service-base-path}}{{users-service-path}}/registerUserUI",
+					"host": [
+						"{{users-service-base-path}}{{users-service-path}}"
+					],
+					"path": [
+						"registerUserUI"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loginWithEmail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"dona.ugalde@gmail.com\",\r\n    \"password\": \"1234567890\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{users-service-base-path}}{{users-service-path}}/loginWithEmail",
+					"host": [
+						"{{users-service-base-path}}{{users-service-path}}"
+					],
+					"path": [
+						"loginWithEmail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
