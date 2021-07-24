@@ -1,8 +1,9 @@
-# Título del Proyecto
+# Coffee Grains
+Hello and welcome to the coffee-grains project!
 
-_Acá va un párrafo que describa lo que es el proyecto_
+This repository holds all the code for the coffee-grains applications and services.
 
-## Comenzando 🚀
+## Technology stack
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
