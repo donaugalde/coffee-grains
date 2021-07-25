@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(
 	scanBasePackages = {
+		"com.coffeegrains",
 		"com.coffeegrains.auth",
 		"com.coffeegrains.serviceutils"
 	}
