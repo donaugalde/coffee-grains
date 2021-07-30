@@ -55,4 +55,5 @@ Thumbs.db
 *.classpath
 *.factorypath
 org.eclipse.*.prefs
+org.springframework.*.prefs
 */target/*
