@@ -1,9 +1,9 @@
-# Coffee Grains
+# # Coffee Grains
 
 Welcome to the coffee-grains project code repository.
 In this document you will find everything you need to know to get your development environment ready to start contributing to the coffee-grains project.
 
-### Technical requirements
+### # Technical requirements
 
 Please make sure you meet all technical requirements before downloading the project.
 
@@ -18,7 +18,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 * [NodeJs 12.22.2] - Don't go any higher than this version
 * [NPM 6.14.13]
 
-### Instalación 🔧
+### # Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
